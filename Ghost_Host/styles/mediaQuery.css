@@ -1,0 +1,180 @@
+@media screen and (min-width: 1980px){
+
+    body{
+        position: relative;
+        max-width: 1980px;
+        margin-left : auto;
+        margin-right: auto;
+    }
+
+    .hero{
+        background-position: center;
+        position: relative;
+        height: 100vh;
+    }
+
+    .hero::after{
+        max-width: 1980px;
+        height: 100vh;
+    }
+
+    .hero .hero-title{
+        left : 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    header nav{
+        max-width: 100%;
+    }
+
+    .user_buttons{
+        top: -75px;
+    }
+
+    .team .team_members .member h3{
+        margin-top: 8px;
+    }
+
+    .member p{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1800px){
+
+    .hero{
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    
+    .team_members .member:last-child h3{
+        /* display: block; */
+        /* left: 100px; */
+    }
+
+    footer section:first-child{
+        display: grid;
+        height: 100%;
+    }
+
+    footer section:first-child div:first-child{
+        margin-top: 25%;
+    }
+
+    footer section:first-child div:last-child{
+        margin-top: -40px;
+    }
+
+    footer section:nth-child(2){
+
+        grid-template-columns: auto;
+    }
+
+}
+
+@media screen and (max-width: 1274px){
+    
+    .team_members .member p{
+        display: none;
+    }
+
+    .team_members .member{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 885px){
+
+    header nav{
+        text-align: center;
+    }
+
+    header nav .logo{
+        display: none;
+    }
+
+    header nav ul{
+        position: relative;
+    }
+
+    header nav ul li:last-child{
+        padding-right: 20px;
+    }
+
+    .team{
+        grid-template-columns: repeat(1, 100%);
+        justify-content: stretch;
+        height: 480px;
+        overflow: hidden;
+    }
+
+    .team .team_members{
+        grid-template-columns: repeat(3, 32%);
+    }
+
+    .team .aboutUs{
+        border-bottom: 1px solid lightgray;
+        height: 100%;
+    }
+
+    .team .aboutUs h3{
+        line-height: 0px;
+        left: 50%;
+        top: 27%;
+    }
+
+    .team .aboutUs h3, span{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .team .aboutUs h3 span{
+        position: relative;
+        /* left: 105%; */
+    }
+
+    .team .aboutUs .description{
+        width: 90%;
+        left: 50%;
+        top: 50%;
+    }
+
+    .team .team_members .member:last-child h3{
+        /* margin-left: 25%; */
+        /* left: 0px; */
+    }
+}
+
+@media screen and (max-width: 753px){
+
+    header nav{
+        border-bottom: none;
+    }
+
+    header nav .nav__links li a{
+        color: white;
+    }
+
+    .carousel .slide .wrapper{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    footer{
+        overflow: hidden
+    };
+}
+
+@media screen and (max-width: 540px){
+
+    .carousel .slide .wrapper{
+        display: none;
+    }
+
+    .services{
+        grid-template-columns: repeat(2, 45%);
+        justify-content: space-around;
+    }
+}
