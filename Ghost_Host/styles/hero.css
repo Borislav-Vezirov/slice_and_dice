@@ -1,0 +1,47 @@
+.hero{
+    top: -75px;
+    width : 100%;
+    height: 100vh;
+    background-image : url(../assets/images/Data-Center2.jpg);
+    background-repeat: no-repeat;
+    background-size  : cover;
+}
+
+.hero-title{
+    position: absolute;
+    z-index : 20;
+    width : 50%;
+    height: 200px;
+    top : 50%;
+    left: 50%;
+    transform : translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-title h1, h2{
+    color: white;
+}
+
+h1{
+    font-family   : 'Roboto';
+    margin-top    : 100px;
+    margin-bottom : 10px;
+    font-weight   : bold;
+    font-size     : 48px;
+    letter-spacing: 1px;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-style: italic; 
+    font-size : 22px;
+}
+
+.hero::after{
+    content : '';
+    position: absolute;
+    width : 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.7;
+}
