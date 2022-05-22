@@ -1,0 +1,62 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    justify-content: center;
+    gap: 50px;
+    height: 240px;
+    align-items: center;
+    position: relative;
+    background-color: #2a2a2a;
+    color: #666666;
+}
+
+footer .info, .site-map{
+    border-right: 1px solid grey;
+}
+
+footer .info, .site-map a{
+    position: relative;
+    color: #757474;
+    text-decoration: none;
+}
+
+footer .info, .site-map, .contacts{
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+footer .info div:last-child{
+    margin-top: 10px;
+}
+
+footer .info div:last-child span{
+    font-size  : 15px;
+    font-weight: bold;
+}
+
+footer .site-map{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    gap: 5px;
+    padding: 0 10px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+footer .site-map div, .contacts div{
+    padding: 0 15px;
+}
+
+footer .site-map div a:hover{
+    color: white;
+}
+
+footer .site-map div a:hover i{
+    padding-right: 5px;
+    transition: all 200ms ease-in-out;
+}
+
+footer .contacts div i{
+    padding-right: 10px;
+}

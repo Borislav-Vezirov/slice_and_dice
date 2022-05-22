@@ -1,0 +1,66 @@
+.services{
+    display: grid;
+    grid-template-columns: repeat(4, 15%);
+    justify-content: center;
+    gap: 5%;
+    height: 240px;
+    align-items: center;
+    position: relative;
+}
+
+.services section{
+    position  : relative;
+    text-align: center;
+    height : 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 15%);
+    gap: 5%;
+    align-content: center;
+}
+
+.services__lightning-icon, .services__cloud-icon, .services__transfer-icon, .services__support-icon{
+    position: relative;
+    left: 50%;
+    top : 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 50%;
+    width : 45px;
+    height: 45px;
+    text-align: center;
+}
+
+.services__lightning-icon i, .services__cloud-icon i, .services__transfer-icon i, .services__support-icon i{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.services section:first-child span{
+    background-color: #f1c40f;
+}
+
+.services section:nth-child(2) span{
+    background-color: #0faff1
+}
+
+.services section:nth-child(3) span{
+    background-color:#95a5a6;
+}
+
+.services section:nth-child(4) span{
+    background-color:#ff4500;
+}
+
+.services .services__title{
+    margin-top: 5px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+} 
+
+.services .services__desc{
+    padding: 0;
+    font-weight: 100;
+}
