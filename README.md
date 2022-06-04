@@ -1,5 +1,5 @@
 # slice_and_dice
-#### Static web page, designed with only HTML, CSS and plain Javascript, without any libraries (e.g., carousel libraries, bootstrap, etc.), and It's with responsive design
+#### Static web page, designed with only HTML, CSS and plain Javascript for carousel, there isn't any libraries (e.g., carousel libraries, bootstrap, etc.), and It's with responsive design
 
 ##### Ghost Host
 
